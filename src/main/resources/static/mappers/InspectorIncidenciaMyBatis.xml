@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper
+	namespace="com.ffm.inspector.red.mapper.InspectorIncidenciaMapper">
+	<select id="consultaConfiguracion"
+		resultType="com.ffm.inspector.red.component.Configuracion">
+		SELECT
+		FGCF_LLAVE llave,
+		FGCF_VALOR valor
+		FROM
+		FFM_CONFIG_GENERALES
+		WHERE
+		FCCO_ID_CONFIGURACION = 22
+	</select>
+
+	<select id="consultaGeografia" resultType="int">
+		SELECT FCGE_ID from
+		FFM_CAT_GEOGRAFIAS
+		WHERE FCGE_NIVEL = 5 and
+		FCGE_NOMBRE=#{clusterTotalplay}
+	</select>
+
+	<insert id="registroIncidencia" useGeneratedKeys="true"
+		keyProperty="idRegistroIncidencia" keyColumn="FIIC_ID"
+		parameterType="com.ffm.inspector.red.model.input.RegistroIncidencia">
+		INSERT INTO FFM_INCIDENTES_INSPECTOR(
+		FCIC_ID_INCIDENTE,
+		FCIC_ID_SUBINCIDE,
+		FCEI_ID_ESTATUS_INCIDE,
+		FUSU_ID_USUARIO,
+		FCGE_ID_GEOGRAFIA,
+		FOTR_ID_ORDEN,
+		FIIC_LATITUD,
+		FIIC_LONGITUD,
+		FCUN_ID_UNIDAD_NEGOCIO,
+		FCPR_ID_PROPIETARIO)
+		VALUES(
+		#{idTipoIncidencia},#{idSubTipoIncidencia},
+		1,22,
+		#{idGeografia},NULL,
+		#{latitud},#{longitud},
+		1,1)
+	</insert>
+	
+	<insert id="registroDetalleIncidente" useGeneratedKeys="true"
+	keyProperty="idRegistroDetalle" keyColumn="FDIC_ID"
+	parameterType="com.ffm.inspector.red.model.input.DetalleIncidencia">
+		INSERT INTO FFM_DETALLE_INCIDENTES(
+		FIIC_ID_INCIDENTE,
+		FCIC_ID_TIPO_INCIDENTE,
+		FCIC_ID_SUB_TIPO_INCIDENTE,
+		FDIC_COMENTARIO,
+		FCUN_ID_UNIDAD_NEGOCIO,
+		FCPR_ID_PROPIETARIO)
+		VALUES(
+		#{idRegistroIncidencia},#{idTipoIncidencia},
+		#{idSubTipoIncidencia},#{comentarios},
+		1,1)
+		
+	</insert>
+
+
+</mapper>

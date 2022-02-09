@@ -1,0 +1,66 @@
+# =================== Configuracion del microservicio ===========================
+spring:
+  application:
+    name: Inspector de Red
+  datasource:
+    url: ${URIS-DATA-BASE}
+    username: ${USER-DATA-BASE}
+    password: ${PASS-DATA-BASE}
+# =================== Manejo de base de datos =================================
+mybatis:
+  mapper-locations: classpath:static/mappers/*.xml    
+# =================== Descrubrimiento de ws   =================================
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${USER-MONITOR}:${PASS-MONITOR}@${HOST-BASICO}:8147/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      management.context-path: /ffm/inspector/incidencias/actuator
+# =================== Configuracion del microservicio ===========================
+server:
+  port: 8196
+  servlet:
+    context-path: /ffm/inspector/incidencias
+#==================== Configuración de logs ======================================
+logging:
+  level:
+    root: ${LOG-LEVELe:INFO}
+  file:
+    name: MSLog.log
+    max-history: ${LOG-NUM-FILES:1}
+    max-size: ${LOG-TAMA-LOG:1 MB}
+#==================== Configuración de monitoreo =================================
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
+# =================== Autentiocacion y Deserealizacion del JWT =================== 
+seguridad:
+  jwt:
+    header: Authorization
+    prefix: Bearer
+    detail: authorities
+    secret: ${JWTSEG-SECRET}
+# =================== Documentación OpenAPI 3.0 =================================== 
+ffm:
+  api:
+    title: Inspector Red
+    version: V 1.0
+    description: >-
+     API que consulta de Redes para conocer los incidentes
+  developer:
+    name: Gamaliel Aguilar Ceron
+    email: gaguilarc@totalplay.com.mx
+    url: https://www.linkedin.com/in/gamaliel-aguilar-cer%C3%B3n-66729a15a/
+  environment:
+    description: ${ENVIRONMENT-DESCRIPTION:NO-CONFIGURADA}

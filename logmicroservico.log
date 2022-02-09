@@ -1,0 +1,44 @@
+2021-05-18 08:40:56.406  INFO 3560 --- [main] c.f.a.ws.base.Arq_Back_WS_BaseTests      : Starting Arq_Back_WS_BaseTests using Java 1.8.0_231 on LAPTOP-GIFE3105 with PID 3560 (started by Gamaliel in C:\Users\Gamaliel\Documents\JAVA\CLOUD\Arq_Back_WS_Base)
+2021-05-18 08:40:56.426  INFO 3560 --- [main] c.f.a.ws.base.Arq_Back_WS_BaseTests      : No active profile set, falling back to default profiles: default
+2021-05-18 08:41:01.090  INFO 3560 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 11d90cc3-c81c-4f89-907f-aa8b12464b12
+
+2021-05-18 08:41:01.309  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2021-05-18 08:41:01.311  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2021-05-18 08:41:01.311  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2021-05-18 08:41:01.312  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2021-05-18 08:41:01.312  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2021-05-18 08:41:01.313  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2021-05-18 08:41:01.314  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2021-05-18 08:41:01.314  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2021-05-18 08:41:01.315  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2021-05-18 08:41:01.315  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2021-05-18 08:41:01.315  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2021-05-18 08:41:01.316  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2021-05-18 08:41:03.753  INFO 3560 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-05-18 08:41:03.909  INFO 3560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54a5728b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4faca5d, org.springframework.security.web.header.HeaderWriterFilter@6b311ce5, org.springframework.web.filter.CorsFilter@260069b5, org.springframework.security.web.authentication.logout.LogoutFilter@52bc04f, com.ffm.arquetipo.ws.base.configuration.security.SeguridadFiltroConfig@70ba6842, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8e10cf9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5dbe891a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1141ce2a, org.springframework.security.web.session.SessionManagementFilter@b1c7b36, org.springframework.security.web.access.ExceptionTranslationFilter@78702475, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76f99d4a]
+2021-05-18 08:41:04.384  INFO 3560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-18 08:41:04.848  INFO 3560 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-05-18 08:41:05.806  INFO 3560 --- [main] c.f.a.ws.base.Arq_Back_WS_BaseTests      : Started Arq_Back_WS_BaseTests in 10.463 seconds (JVM running for 13.482)
+2021-05-18 08:41:05.856 ERROR 3560 --- [registrationTask1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:192) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceBaseUrl(DefaultApplicationFactory.java:104) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getServiceUrl(ServletApplicationFactory.java:63) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getManagementBaseUrl(ServletApplicationFactory.java:76) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:154) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:80) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:56) ~[spring-boot-admin-client-2.4.1.jar:2.4.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2021-05-18 08:41:06.617  INFO 3560 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-05-18 08:41:06.618  INFO 3560 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
