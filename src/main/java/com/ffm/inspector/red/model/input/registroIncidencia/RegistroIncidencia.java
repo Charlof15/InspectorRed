@@ -1,4 +1,4 @@
-package com.ffm.inspector.red.model.input;
+package com.ffm.inspector.red.model.input.registroIncidencia;
 
 import java.util.List;
 

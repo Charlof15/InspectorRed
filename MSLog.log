@@ -2923,3 +2923,628 @@ Using generated security password: 2d4f1c41-dbf0-46f2-a352-07b6411f8368
 2022-02-09 11:57:11.470  INFO 24692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
 2022-02-09 11:57:11.555  INFO 24692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
 2022-02-09 11:57:13.328  INFO 24692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:51:17.587  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Starting MainInspectorRed using Java 17 on GS1771009_TPLT with PID 28276 (E:\Usuarios\kcamacho\Pictures\kk\InspectorRed\target\classes started by kcamacho in E:\Usuarios\kcamacho\Pictures\kk\InspectorRed)
+2022-02-14 15:51:17.590  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : No active profile set, falling back to default profiles: default
+2022-02-14 15:51:17.660  INFO 28276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\Usuarios\kcamacho\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.8.0.0\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/E:/Usuarios/kcamacho/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.8.0.0/oraclepki.jar
+2022-02-14 15:51:17.660  INFO 28276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\Usuarios\kcamacho\.m2\repository\org\glassfish\jaxb\jaxb-xjc-jdk9\2.3.0\jaxb-xjc-jdk9-2.3.0.jar referenced one or more files that do not exist: file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-xjc-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-core-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/jaxb-api-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/txw2-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/dtd-parser-1.2.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/xsom-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/codemodel-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/rngom-2.3.0.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-tools-3.0.5.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/istack-commons-runtime-3.0.5.jar,file:/E:/Usuarios/kcamacho/.m2/repository/org/glassfish/jaxb/jaxb-xjc-jdk9/2.3.0/relaxngDatatype-20020414.jar
+2022-02-14 15:51:17.661  INFO 28276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\Usuarios\kcamacho\.m2\repository\com\sun\xml\bind\external\rngom\2.3.0\rngom-2.3.0.jar referenced one or more files that do not exist: file:/E:/Usuarios/kcamacho/.m2/repository/com/sun/xml/bind/external/rngom/2.3.0/relaxngDatatype-20020414.jar
+2022-02-14 15:51:17.661  INFO 28276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\Usuarios\kcamacho\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/E:/Usuarios/kcamacho/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2022-02-14 15:51:17.662  INFO 28276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-14 15:51:17.662  INFO 28276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-14 15:51:20.508  INFO 28276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d534bc4-052b-3fe1-9b40-ef7ac50434d2
+2022-02-14 15:51:20.697  INFO 28276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de718bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-14 15:51:20.822  INFO 28276 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-02-14 15:51:22.094  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8196 (http)
+2022-02-14 15:51:22.113  INFO 28276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-14 15:51:22.114  INFO 28276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-02-14 15:51:23.422  INFO 28276 --- [restartedMain] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring embedded WebApplicationContext
+2022-02-14 15:51:23.423  INFO 28276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5760 ms
+2022-02-14 15:51:24.798  INFO 28276 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fdea0e6c-2b8c-414e-a719-9b3e2c57a304
+
+2022-02-14 15:51:24.841  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2022-02-14 15:51:24.842  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:51:24.843  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-02-14 15:51:24.843  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:51:27.727  INFO 28276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-02-14 15:51:27.743  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74cf1153, org.springframework.security.web.context.SecurityContextPersistenceFilter@649759f, org.springframework.security.web.header.HeaderWriterFilter@3778d65c, org.springframework.web.filter.CorsFilter@226a4407, org.springframework.security.web.authentication.logout.LogoutFilter@84db00b, com.ffm.inspector.red.configuration.security.SeguridadFiltroConfig@7ced53f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56bb7e16, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f9c33f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28d84e57, org.springframework.security.web.session.SessionManagementFilter@77ba7d14, org.springframework.security.web.access.ExceptionTranslationFilter@32710ae2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3612e0d0]
+2022-02-14 15:51:27.777  INFO 28276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:51:28.061  WARN 28276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-14 15:51:28.285  INFO 28276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-14 15:51:28.331  INFO 28276 --- [RMI TCP Connection(3)-127.0.0.1] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-14 15:51:28.331  INFO 28276 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-14 15:51:28.332  INFO 28276 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-14 15:51:28.344  WARN 28276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-14 15:51:28.403  INFO 28276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-14 15:51:28.438  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-14 15:51:28.443  INFO 28276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-14 15:51:28.493  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-14 15:51:28.493  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-14 15:51:28.493  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-14 15:51:28.493  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-14 15:51:28.493  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-14 15:51:28.494  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-14 15:51:28.495  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-14 15:51:44.638  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-14 15:51:44.645  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-14 15:51:44.651  INFO 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-14 15:51:44.663  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644875504662 with initial instances count: 866
+2022-02-14 15:51:44.664  INFO 28276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INSPECTOR DE RED with eureka with status UP
+2022-02-14 15:51:44.665  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875504665, current=UP, previous=STARTING]
+2022-02-14 15:51:44.665  WARN 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:51:44.676  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-14 15:51:44.779  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8196 (http) with context path '/ffm/inspector/incidencias'
+2022-02-14 15:51:44.779  INFO 28276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8196
+2022-02-14 15:51:45.011  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Started MainInspectorRed in 28.667 seconds (JVM running for 32.941)
+2022-02-14 15:51:45.588  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-14 15:51:45.662  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:51:46.911  WARN 28276 --- [http-nio-8196-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from ResponseEntity<ConsultaGeografia> to ResponseEntity<ConsultaUrlImagen>
+]
+2022-02-14 15:51:58.928  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:52:27.016  INFO 28276 --- [http-nio-8196-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 291 ms
+2022-02-14 15:55:38.157  INFO 28276 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application INSPECTOR DE RED with eureka with status DOWN
+2022-02-14 15:55:38.159  INFO 28276 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875738159, current=DOWN, previous=UP]
+2022-02-14 15:55:38.196  INFO 28276 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:55:38.197  INFO 28276 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-14 15:55:38.203  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@38299d93 (Error de E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2022-02-14 15:55:38.842  INFO 28276 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-14 15:55:38.846  INFO 28276 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-14 15:55:41.853  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.b.a.jdbc.DataSourceHealthIndicator   : DataSource health check failed
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:105) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:201) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	... 24 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:906) ~[na:na]
+	at com.zaxxer.hikari.util.ConcurrentBag.borrow(ConcurrentBag.java:151) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:180) ~[HikariCP-3.4.5.jar:na]
+	... 29 common frames omitted
+
+2022-02-14 15:55:41.857  INFO 28276 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-14 15:55:41.857  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.c.h.RefreshScopeHealthIndicator      : Health check failed
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'refreshScope': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2021) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.cloud.health.RefreshScopeHealthIndicator.doHealthCheck(RefreshScopeHealthIndicator.java:48) ~[spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-02-14 15:55:41.857  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:55:42.129  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:55:42.225  INFO 28276 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - deregister  status: 200
+2022-02-14 15:55:42.289  INFO 28276 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-14 15:55:42.599  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Starting MainInspectorRed using Java 17 on GS1771009_TPLT with PID 28276 (E:\Usuarios\kcamacho\Pictures\kk\InspectorRed\target\classes started by kcamacho in E:\Usuarios\kcamacho\Pictures\kk\InspectorRed)
+2022-02-14 15:55:42.601  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : No active profile set, falling back to default profiles: default
+2022-02-14 15:55:43.704  INFO 28276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d534bc4-052b-3fe1-9b40-ef7ac50434d2
+2022-02-14 15:55:43.729  INFO 28276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de718bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-14 15:55:43.736  INFO 28276 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-02-14 15:55:43.817  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8196 (http)
+2022-02-14 15:55:43.818  INFO 28276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-14 15:55:43.818  INFO 28276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-02-14 15:55:43.876  INFO 28276 --- [restartedMain] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring embedded WebApplicationContext
+2022-02-14 15:55:43.877  INFO 28276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1274 ms
+2022-02-14 15:55:44.101  INFO 28276 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 62d09d75-75d5-4f09-b588-7e3d9302e708
+
+2022-02-14 15:55:44.108  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-02-14 15:55:44.108  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-02-14 15:55:44.109  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:55:46.322  INFO 28276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-02-14 15:55:46.327  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35e3a429, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ef76583, org.springframework.security.web.header.HeaderWriterFilter@3b7c868b, org.springframework.web.filter.CorsFilter@bc2588a, org.springframework.security.web.authentication.logout.LogoutFilter@2942085e, com.ffm.inspector.red.configuration.security.SeguridadFiltroConfig@2e3a7a1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d44def3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1253410e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c62e3bb, org.springframework.security.web.session.SessionManagementFilter@4d3e69fe, org.springframework.security.web.access.ExceptionTranslationFilter@44a6ecd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2aad16f0]
+2022-02-14 15:55:46.337  INFO 28276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:55:46.401  WARN 28276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-14 15:55:46.558  INFO 28276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-14 15:55:46.573  WARN 28276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-14 15:55:46.592  INFO 28276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-14 15:55:46.614  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-14 15:55:46.614  INFO 28276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-14 15:55:46.625  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-14 15:55:46.625  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-14 15:55:46.625  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-14 15:55:46.625  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-14 15:55:46.625  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-14 15:55:46.626  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-14 15:55:46.626  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-14 15:55:53.942  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-14 15:55:53.951  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-14 15:55:53.957  INFO 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-14 15:55:53.970  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644875753970 with initial instances count: 869
+2022-02-14 15:55:53.971  INFO 28276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INSPECTOR DE RED with eureka with status UP
+2022-02-14 15:55:53.972  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875753972, current=UP, previous=STARTING]
+2022-02-14 15:55:53.972  WARN 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:55:53.980  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-02-14 15:55:53.988  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8196 (http) with context path '/ffm/inspector/incidencias'
+2022-02-14 15:55:53.989  INFO 28276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8196
+2022-02-14 15:55:54.189  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Started MainInspectorRed in 11.83 seconds (JVM running for 282.122)
+2022-02-14 15:55:54.190  INFO 28276 --- [Thread-19] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application INSPECTOR DE RED with eureka with status DOWN
+2022-02-14 15:55:54.190  INFO 28276 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875754190, current=DOWN, previous=UP]
+2022-02-14 15:55:54.190  WARN 28276 --- [Thread-19] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:55:54.193  INFO 28276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-14 15:55:54.222  INFO 28276 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:55:54.223  INFO 28276 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-14 15:55:54.689  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-02-14 15:55:54.694  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.b.a.jdbc.DataSourceHealthIndicator   : DataSource health check failed
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-2) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.isConnectionValid(DataSourceHealthIndicator.java:130) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:116) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-2) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	... 24 common frames omitted
+
+2022-02-14 15:55:54.701  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.c.h.RefreshScopeHealthIndicator      : Health check failed
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'refreshScope': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2021) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.cloud.health.RefreshScopeHealthIndicator.doHealthCheck(RefreshScopeHealthIndicator.java:48) ~[spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-02-14 15:55:54.702  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:55:57.246  INFO 28276 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-14 15:56:07.827  INFO 28276 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - deregister  status: 404
+2022-02-14 15:56:07.886  INFO 28276 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-14 15:56:08.149  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Starting MainInspectorRed using Java 17 on GS1771009_TPLT with PID 28276 (E:\Usuarios\kcamacho\Pictures\kk\InspectorRed\target\classes started by kcamacho in E:\Usuarios\kcamacho\Pictures\kk\InspectorRed)
+2022-02-14 15:56:08.150  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : No active profile set, falling back to default profiles: default
+2022-02-14 15:56:08.580  INFO 28276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d534bc4-052b-3fe1-9b40-ef7ac50434d2
+2022-02-14 15:56:08.591  INFO 28276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de718bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-14 15:56:08.592  INFO 28276 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-02-14 15:56:08.637  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8196 (http)
+2022-02-14 15:56:08.638  INFO 28276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-14 15:56:08.638  INFO 28276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-02-14 15:56:08.714  INFO 28276 --- [restartedMain] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring embedded WebApplicationContext
+2022-02-14 15:56:08.714  INFO 28276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
+2022-02-14 15:56:08.856  INFO 28276 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9636199c-b406-4ad5-a7ce-f3f08b14f0ae
+
+2022-02-14 15:56:08.861  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-02-14 15:56:08.861  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-02-14 15:56:08.861  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2022-02-14 15:56:08.861  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:56:08.862  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-02-14 15:56:08.863  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:56:10.880  INFO 28276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-02-14 15:56:10.884  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65ab88fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@4013699e, org.springframework.security.web.header.HeaderWriterFilter@30f608a2, org.springframework.web.filter.CorsFilter@215dc987, org.springframework.security.web.authentication.logout.LogoutFilter@2d5ca288, com.ffm.inspector.red.configuration.security.SeguridadFiltroConfig@17e47d3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48c7b35b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@487401f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55a96251, org.springframework.security.web.session.SessionManagementFilter@3dd06853, org.springframework.security.web.access.ExceptionTranslationFilter@7e6ec649, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b9b3284]
+2022-02-14 15:56:10.894  INFO 28276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:56:10.946  WARN 28276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-14 15:56:11.111  INFO 28276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-14 15:56:11.124  WARN 28276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-14 15:56:11.145  INFO 28276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-14 15:56:11.159  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-14 15:56:11.160  INFO 28276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-14 15:56:11.166  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-14 15:56:11.166  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-14 15:56:11.166  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-14 15:56:11.166  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-14 15:56:11.167  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-14 15:56:11.167  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-14 15:56:11.167  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-14 15:56:12.729  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:56:13.266  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-14 15:56:13.272  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-14 15:56:13.277  INFO 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-14 15:56:13.289  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644875773289 with initial instances count: 836
+2022-02-14 15:56:13.290  INFO 28276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INSPECTOR DE RED with eureka with status UP
+2022-02-14 15:56:13.290  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875773290, current=UP, previous=STARTING]
+2022-02-14 15:56:13.291  WARN 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:56:13.336  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-02-14 15:56:13.353  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8196 (http) with context path '/ffm/inspector/incidencias'
+2022-02-14 15:56:13.354  INFO 28276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8196
+2022-02-14 15:56:13.891  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Started MainInspectorRed in 5.954 seconds (JVM running for 301.825)
+2022-02-14 15:56:13.897  INFO 28276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-14 15:56:14.154  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-02-14 15:56:14.223  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:56:14.462  INFO 28276 --- [http-nio-8196-exec-1] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-14 15:56:14.462  INFO 28276 --- [http-nio-8196-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-14 15:56:14.465  INFO 28276 --- [http-nio-8196-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-02-14 15:56:14.493  WARN 28276 --- [http-nio-8196-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method getInstancia() is undefined for the type Variables
+]
+2022-02-14 15:56:24.826  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:57:48.872  INFO 28276 --- [Thread-26] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application INSPECTOR DE RED with eureka with status DOWN
+2022-02-14 15:57:48.873  INFO 28276 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875868873, current=DOWN, previous=UP]
+2022-02-14 15:57:48.915  INFO 28276 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:57:48.917  INFO 28276 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-02-14 15:57:48.918  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Failed to validate connection oracle.jdbc.driver.T4CConnection@8277674 (Error de E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2022-02-14 15:57:49.763  INFO 28276 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-02-14 15:57:49.764  INFO 28276 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-14 15:57:52.803  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.b.a.jdbc.DataSourceHealthIndicator   : DataSource health check failed
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariPool-3 - Interrupted during connection acquisition
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:105) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.sql.SQLException: HikariPool-3 - Interrupted during connection acquisition
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:201) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	... 24 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:906) ~[na:na]
+	at com.zaxxer.hikari.util.ConcurrentBag.borrow(ConcurrentBag.java:151) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:180) ~[HikariCP-3.4.5.jar:na]
+	... 29 common frames omitted
+
+2022-02-14 15:57:52.806  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.c.h.RefreshScopeHealthIndicator      : Health check failed
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'refreshScope': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2021) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.cloud.health.RefreshScopeHealthIndicator.doHealthCheck(RefreshScopeHealthIndicator.java:48) ~[spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-02-14 15:57:52.806  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:57:52.821  INFO 28276 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-14 15:57:53.322  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:57:56.029  INFO 28276 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - deregister  status: 404
+2022-02-14 15:57:56.082  INFO 28276 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-14 15:57:56.328  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Starting MainInspectorRed using Java 17 on GS1771009_TPLT with PID 28276 (E:\Usuarios\kcamacho\Pictures\kk\InspectorRed\target\classes started by kcamacho in E:\Usuarios\kcamacho\Pictures\kk\InspectorRed)
+2022-02-14 15:57:56.329  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : No active profile set, falling back to default profiles: default
+2022-02-14 15:57:56.802  INFO 28276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d534bc4-052b-3fe1-9b40-ef7ac50434d2
+2022-02-14 15:57:56.827  INFO 28276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de718bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-14 15:57:56.830  INFO 28276 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-02-14 15:57:56.917  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8196 (http)
+2022-02-14 15:57:56.918  INFO 28276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-14 15:57:56.918  INFO 28276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-02-14 15:57:56.993  INFO 28276 --- [restartedMain] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring embedded WebApplicationContext
+2022-02-14 15:57:56.993  INFO 28276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2022-02-14 15:57:57.138  INFO 28276 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 529d7338-323f-4b86-8b4a-63e062a21f80
+
+2022-02-14 15:57:57.142  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-02-14 15:57:57.142  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-02-14 15:57:57.142  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2022-02-14 15:57:57.142  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2022-02-14 15:57:57.142  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-02-14 15:57:57.143  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:57:59.621  INFO 28276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-02-14 15:57:59.627  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e5da18, org.springframework.security.web.context.SecurityContextPersistenceFilter@51105223, org.springframework.security.web.header.HeaderWriterFilter@437d6342, org.springframework.web.filter.CorsFilter@7bb9bb69, org.springframework.security.web.authentication.logout.LogoutFilter@6db2c61a, com.ffm.inspector.red.configuration.security.SeguridadFiltroConfig@5c2faf2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55751274, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d3a0ceb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a48268c, org.springframework.security.web.session.SessionManagementFilter@33de18e3, org.springframework.security.web.access.ExceptionTranslationFilter@5abbdb5e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10cbe1df]
+2022-02-14 15:57:59.642  INFO 28276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:57:59.722  WARN 28276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-14 15:57:59.933  INFO 28276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-14 15:57:59.947  WARN 28276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-14 15:57:59.965  INFO 28276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-14 15:57:59.984  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-14 15:57:59.984  INFO 28276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-14 15:57:59.993  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-14 15:58:03.109  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-14 15:58:03.121  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-14 15:58:03.129  INFO 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-14 15:58:03.144  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644875883144 with initial instances count: 867
+2022-02-14 15:58:03.144  INFO 28276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INSPECTOR DE RED with eureka with status UP
+2022-02-14 15:58:03.145  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875883145, current=UP, previous=STARTING]
+2022-02-14 15:58:03.145  WARN 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:58:03.150  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-02-14 15:58:03.160  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8196 (http) with context path '/ffm/inspector/incidencias'
+2022-02-14 15:58:03.160  INFO 28276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8196
+2022-02-14 15:58:03.331  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Started MainInspectorRed in 7.205 seconds (JVM running for 411.265)
+2022-02-14 15:58:03.331  INFO 28276 --- [Thread-39] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application INSPECTOR DE RED with eureka with status DOWN
+2022-02-14 15:58:03.332  INFO 28276 --- [Thread-39] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875883332, current=DOWN, previous=UP]
+2022-02-14 15:58:03.332  WARN 28276 --- [Thread-39] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:58:03.333  INFO 28276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-14 15:58:03.360  INFO 28276 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:58:03.361  INFO 28276 --- [Thread-39] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-14 15:58:03.893  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-02-14 15:58:03.894  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.b.a.jdbc.DataSourceHealthIndicator   : DataSource health check failed
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-4) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.isConnectionValid(DataSourceHealthIndicator.java:130) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:116) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:100) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-4) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.3.6.jar:5.3.6]
+	... 24 common frames omitted
+
+2022-02-14 15:58:03.897  WARN 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.c.h.RefreshScopeHealthIndicator      : Health check failed
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'refreshScope': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2021) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.cloud.health.RefreshScopeHealthIndicator.doHealthCheck(RefreshScopeHealthIndicator.java:48) ~[spring-cloud-context-3.0.2.jar:3.0.2]
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1761) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124) ~[spring-cloud-netflix-eureka-client-3.0.2.jar:3.0.2]
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.11.jar:1.10.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-02-14 15:58:03.897  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:58:06.385  INFO 28276 --- [Thread-39] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-14 15:58:12.416  INFO 28276 --- [Thread-39] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - deregister  status: 200
+2022-02-14 15:58:12.465  INFO 28276 --- [Thread-39] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-14 15:58:12.728  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Starting MainInspectorRed using Java 17 on GS1771009_TPLT with PID 28276 (E:\Usuarios\kcamacho\Pictures\kk\InspectorRed\target\classes started by kcamacho in E:\Usuarios\kcamacho\Pictures\kk\InspectorRed)
+2022-02-14 15:58:12.729  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : No active profile set, falling back to default profiles: default
+2022-02-14 15:58:13.134  INFO 28276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7d534bc4-052b-3fe1-9b40-ef7ac50434d2
+2022-02-14 15:58:13.142  INFO 28276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de718bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-14 15:58:13.143  INFO 28276 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-02-14 15:58:13.202  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8196 (http)
+2022-02-14 15:58:13.203  INFO 28276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-14 15:58:13.203  INFO 28276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-02-14 15:58:13.281  INFO 28276 --- [restartedMain] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring embedded WebApplicationContext
+2022-02-14 15:58:13.281  INFO 28276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 549 ms
+2022-02-14 15:58:13.407  INFO 28276 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 95d4d43b-0cc0-4c26-a9fd-8338446faf0f
+
+2022-02-14 15:58:13.411  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2022-02-14 15:58:13.411  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2022-02-14 15:58:13.411  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs'] with []
+2022-02-14 15:58:13.411  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/ui'] with []
+2022-02-14 15:58:13.411  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/security'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs/**'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui/**'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v3/api-docs.yaml'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2022-02-14 15:58:13.412  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/actuator/**'] with []
+2022-02-14 15:58:16.326  INFO 28276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-02-14 15:58:16.340  INFO 28276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10a5fdf, org.springframework.security.web.context.SecurityContextPersistenceFilter@b20f2fe, org.springframework.security.web.header.HeaderWriterFilter@61f46205, org.springframework.web.filter.CorsFilter@1d2fb2c3, org.springframework.security.web.authentication.logout.LogoutFilter@21f1f5f, com.ffm.inspector.red.configuration.security.SeguridadFiltroConfig@231f57b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b4ecee0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49e871c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20526467, org.springframework.security.web.session.SessionManagementFilter@cc97854, org.springframework.security.web.access.ExceptionTranslationFilter@1c339ba9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78099de]
+2022-02-14 15:58:16.371  INFO 28276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-14 15:58:16.550  WARN 28276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-14 15:58:16.968  INFO 28276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-14 15:58:17.010  WARN 28276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-14 15:58:17.060  INFO 28276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-14 15:58:17.099  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-14 15:58:17.100  INFO 28276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-14 15:58:17.119  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-14 15:58:17.119  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-14 15:58:17.119  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-14 15:58:17.119  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-14 15:58:17.120  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-14 15:58:17.120  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-14 15:58:17.120  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-14 15:58:22.653  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 15:58:34.748  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-14 15:58:34.762  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-14 15:58:34.771  INFO 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-14 15:58:34.795  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644875914795 with initial instances count: 869
+2022-02-14 15:58:34.796  INFO 28276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application INSPECTOR DE RED with eureka with status UP
+2022-02-14 15:58:34.798  INFO 28276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1644875914798, current=UP, previous=STARTING]
+2022-02-14 15:58:34.798  WARN 28276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : Ignoring onDemand update due to rate limiter
+2022-02-14 15:58:34.854  INFO 28276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8196 (http) with context path '/ffm/inspector/incidencias'
+2022-02-14 15:58:34.854  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-02-14 15:58:34.855  INFO 28276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8196
+2022-02-14 15:58:34.855  INFO 28276 --- [http-nio-8196-exec-1] a.c.c.C.[.[.[/ffm/inspector/incidencias] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-14 15:58:34.855  INFO 28276 --- [http-nio-8196-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-14 15:58:34.858  INFO 28276 --- [http-nio-8196-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-02-14 15:58:35.237  INFO 28276 --- [restartedMain] com.ffm.inspector.red.MainInspectorRed   : Started MainInspectorRed in 22.731 seconds (JVM running for 443.172)
+2022-02-14 15:58:35.246  INFO 28276 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-14 15:58:35.633  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-02-14 15:58:35.701  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196: registering service...
+2022-02-14 15:58:49.387  INFO 28276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_INSPECTOR DE RED/GS1771009_TPLT.totalplay.corp:Inspector de Red:8196 - registration status: 204
+2022-02-14 16:03:17.122  INFO 28276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

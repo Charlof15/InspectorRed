@@ -1,4 +1,4 @@
-package com.ffm.inspector.red.model.input;
+package com.ffm.inspector.red.model.input.registroIncidencia;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -18,6 +18,7 @@ public class DetalleIncidencia {
     @JsonIgnore private Integer idUnidadNegocio;
 	@JsonIgnore private Integer idPropietario;
 	@JsonIgnore private Integer idRegistroDetalle;
+
    
 	
     

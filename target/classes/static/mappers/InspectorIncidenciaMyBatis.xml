@@ -3,6 +3,7 @@
 
 <mapper
 	namespace="com.ffm.inspector.red.mapper.InspectorIncidenciaMapper">
+
 	<select id="consultaConfiguracion"
 		resultType="com.ffm.inspector.red.component.Configuracion">
 		SELECT
@@ -23,7 +24,7 @@
 
 	<insert id="registroIncidencia" useGeneratedKeys="true"
 		keyProperty="idRegistroIncidencia" keyColumn="FIIC_ID"
-		parameterType="com.ffm.inspector.red.model.input.RegistroIncidencia">
+		parameterType="com.ffm.inspector.red.model.input.registroIncidencia.RegistroIncidencia">
 		INSERT INTO FFM_INCIDENTES_INSPECTOR(
 		FCIC_ID_INCIDENTE,
 		FCIC_ID_SUBINCIDE,
@@ -37,15 +38,15 @@
 		FCPR_ID_PROPIETARIO)
 		VALUES(
 		#{idTipoIncidencia},#{idSubTipoIncidencia},
-		1,22,
-		#{idGeografia},NULL,
+		1,#{idUsuario},
+		#{idGeografia,jdbcType = VARCHAR, mode = IN},NULL,
 		#{latitud},#{longitud},
-		1,1)
+		#{idUnidadNegocio},#{idPropietario})
 	</insert>
-	
+
 	<insert id="registroDetalleIncidente" useGeneratedKeys="true"
-	keyProperty="idRegistroDetalle" keyColumn="FDIC_ID"
-	parameterType="com.ffm.inspector.red.model.input.DetalleIncidencia">
+		keyProperty="idRegistroDetalle" keyColumn="FDIC_ID"
+		parameterType="com.ffm.inspector.red.model.input.registroIncidencia.DetalleIncidencia">
 		INSERT INTO FFM_DETALLE_INCIDENTES(
 		FIIC_ID_INCIDENTE,
 		FCIC_ID_TIPO_INCIDENTE,
@@ -56,9 +57,117 @@
 		VALUES(
 		#{idRegistroIncidencia},#{idTipoIncidencia},
 		#{idSubTipoIncidencia},#{comentarios},
-		1,1)
-		
+		#{idUnidadNegocio},#{idPropietario})
 	</insert>
 
+	<insert id="registroEvidencia"
+		parameterType="com.ffm.inspector.red.model.input.registroIncidencia.Archivo">
+		INSERT INTO FFM_EVIDENCIAS_INCIDENTES(
+		FDIC_ID_DETALLE_INCIDENTE,
+		FEVI_NOMBRE,
+		FEVI_EXTENSION,
+		FEVI_STORAGE_PATH,
+		FEVI_URL,
+		FEVI_LATITUD,
+		FEVI_LONGITUD)
+		VALUES(
+		#{idRegistroIncidencia},#{nombre},#{extension},
+		#{storagePath},#{urlFoto},
+		#{latitud},#{longitud})
+	</insert>
 
+	<select id="consultaIncidente"
+		parameterType="com.ffm.inspector.red.model.input.consultaIncidencia.ConsultaIncidente"
+		resultType="com.ffm.inspector.red.model.output.OutputDetalleIncidencias">
+		SELECT
+		INC.FIIC_ID idIncidencia,
+		INC.FCGE_ID_GEOGRAFIA idGeografia,
+		GEO.FCGE_NOMBRE nombreGeografia,
+		USU.FUSU_ID idUsuarioReporta,
+		USU.FUSU_NUMERO_EMPLEADO numeroEmpleado,
+		USU.FUSU_NOMBRE || ' ' ||
+		FUSU_APELLIDO_PATERNO || ' ' || FUSU_APELLIDO_MATERNO usuarioReporta,
+		DET.FCIC_ID_TIPO_INCIDENTE idTipoIncidencia,
+		DET.FCIC_ID_SUB_TIPO_INCIDENTE idSubTipoIncidencia,
+		TO_CHAR(INC.FIIC_FECHA_REGISTRO ,'YYYY-MM-DD') fechaRegistro,
+		TO_CHAR(INC.FIIC_FECHA_REGISTRO ,'HH24:MI') horaRegistro,
+		INC.FIIC_LATITUD latitud,
+		INC.FIIC_LONGITUD longitud,
+		INC.FCEI_ID_ESTATUS_INCIDE idEstatus,
+		EST.FCEI_DESCRIPCION descEstatus,
+		EST.FCEI_HECXA_COLOR colorEstatus
+		FROM FFM_INCIDENTES_INSPECTOR INC
+		INNER JOIN FFM_CAT_GEOGRAFIAS GEO ON GEO.FCGE_ID =
+		INC.FCGE_ID_GEOGRAFIA
+		INNER JOIN FFM_USUARIOS USU ON USU.FUSU_ID =
+		INC.FUSU_ID_USUARIO
+		INNER JOIN FFM_DETALLE_INCIDENTES DET ON
+		DET.FIIC_ID_INCIDENTE = INC.FIIC_ID
+		INNER JOIN
+		FFM_CAT_ESTATUS_INCIDENTES EST ON EST.FCEI_ID =
+		INC.FCEI_ID_ESTATUS_INCIDE
+		WHERE TRUNC(FIIC_FECHA_REGISTRO)
+		BETWEEN TO_DATE(#{fechaInicio},'DD/MM/YYYY')
+		AND
+		TO_DATE(#{fechaFin},'DD/MM/YYYY')
+
+		AND INC.FCEI_ID_ESTATUS_INCIDE IN(
+		<foreach collection="idEstatus" item="element" index="index"
+			separator=",">
+			#{element}
+		</foreach>
+		)
+
+		AND DET.FCIC_ID_SUB_TIPO_INCIDENTE IN(
+		<foreach collection="idSubTipoFallas" item="element"
+			index="index" separator=",">
+			#{element}
+		</foreach>
+		)
+
+		AND INC.FCGE_ID_GEOGRAFIA IN (
+		<foreach collection="idGeografias" item="element"
+			index="index" separator=",">
+			#{element}
+		</foreach>
+		)
+		order by INC.FIIC_FECHA_REGISTRO desc
+	</select>
+
+	<select id="consultaIncidentesSinGeografia"
+		resultType="com.ffm.inspector.red.model.output.OutputIncidentesSinGeografia">
+		SELECT
+		INC.FIIC_ID idIncidencia,
+		USU.FUSU_ID idUsuarioReporta,
+		USU.FUSU_NUMERO_EMPLEADO numeroEmpleado,
+		USU.FUSU_NOMBRE || ' ' ||
+		FUSU_APELLIDO_PATERNO || ' ' || FUSU_APELLIDO_MATERNO usuarioReporta,
+		DET.FCIC_ID_TIPO_INCIDENTE idTipoIncidencia,
+		DET.FCIC_ID_SUB_TIPO_INCIDENTE idSubTipoIncidencia,
+		TO_CHAR(INC.FIIC_FECHA_REGISTRO ,'YYYY-MM-DD') fechaRegistro,
+		TO_CHAR(INC.FIIC_FECHA_REGISTRO ,'HH24:MI') horaRegistro,
+		INC.FIIC_LATITUD latitud,
+		INC.FIIC_LONGITUD longitud,
+		INC.FCEI_ID_ESTATUS_INCIDE idEstatus,
+		EST.FCEI_DESCRIPCION descEstatus,
+		EST.FCEI_HECXA_COLOR colorEstatus
+		FROM FFM_INCIDENTES_INSPECTOR INC
+		INNER JOIN FFM_USUARIOS USU ON USU.FUSU_ID = INC.FUSU_ID_USUARIO
+		INNER
+		JOIN FFM_DETALLE_INCIDENTES DET ON DET.FIIC_ID_INCIDENTE = INC.FIIC_ID
+		INNER JOIN FFM_CAT_ESTATUS_INCIDENTES EST ON EST.FCEI_ID =
+		INC.FCEI_ID_ESTATUS_INCIDE
+		WHERE TRUNC(FIIC_FECHA_REGISTRO)
+		BETWEEN TO_DATE(#{fechaInicio},'DD/MM/YYYY')
+		AND
+		TO_DATE(#{fechaFin},'DD/MM/YYYY')
+
+		AND INC.FCIC_ID_TIPO_INCIDENTE IN(
+		<foreach collection="idTipoIncidencia" item="element"
+			index="index" separator=",">
+			#{element}
+		</foreach>
+		)
+		order by INC.FIIC_FECHA_REGISTRO desc
+	</select>
 </mapper>

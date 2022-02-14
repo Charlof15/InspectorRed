@@ -1,5 +1,7 @@
 package com.ffm.inspector.red.service;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Map;
 
 import org.apache.http.client.HttpClient;
@@ -18,6 +20,7 @@ import com.ffm.inspector.red.component.Configuracion;
 import com.ffm.inspector.red.component.Variables;
 import com.ffm.inspector.red.mapper.InspectorIncidenciaMapper;
 import com.ffm.inspector.red.model.output.ConsultaGeografia;
+import com.ffm.inspector.red.model.output.OutputGeneral;
 import com.google.gson.Gson;
 
 
@@ -25,7 +28,10 @@ public class InspectorIncidencia{
 	
 	Gson gson = new Gson();
 	ConsultaGeografia geo = new ConsultaGeografia();
-
+	SimpleDateFormat getYearFormat = new SimpleDateFormat("yyyy");
+	Date date = new Date();
+	OutputGeneral outputGeneral = new OutputGeneral();
+    
 	@Autowired
 	Variables var;
 	

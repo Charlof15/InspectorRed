@@ -7,9 +7,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ConsultaUrlImagen {
+public class Incidencias extends OutputGeneral {
 	
-	private List<ConsultaUrlImagen> urlImagen;
-	
+    private List<OutputDetalleIncidencias> detalleIncidencias;
 
 }

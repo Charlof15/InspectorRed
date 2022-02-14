@@ -12,7 +12,6 @@ import lombok.Setter;
 @Setter
 @Component
 public class Variables {
-	
     private JWT detalleJWT ;
     @Value("${seguridad.jwt.header}")
     public String authorizationHeader;
@@ -22,5 +21,8 @@ public class Variables {
     public String authorizationDetail;
     @Value("${seguridad.jwt.secret}")
     public String authorizationSecret;
+    @Value("${ffm.environment.description}")
+    public String instancia;
     private String sessionId;
+   
 }
